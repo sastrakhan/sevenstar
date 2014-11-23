@@ -1,0 +1,496 @@
+
+
+h2 {
+  text-align:center;
+}
+
+
+.line {
+  border-bottom: 2px solid #9C8700;
+  border-top: 2px solid #9C8700;
+  width: 20%;
+  height: 0%;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  line-height: 100%;
+  padding: 1%;
+  color: white;
+}
+
+.secondlinetext {
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  width: 100%;
+  height: 0%;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  line-height: 100%;
+  padding: 1%;
+  color: white;
+}
+
+.secondlinetext h2{color: white;}
+.secondlinetext h4{color: white;}
+
+/*gold color - #9C8700, grey color - #949599* yellow - #f5f5ab; #6F256f*/
+
+
+body {
+    background-color: #9C8700;
+}
+
+p {color: white;}
+
+
+/*FIGURE OUT HOW TO ADD A NICE BORDER AROUND IT*/
+
+picture {
+_border: 12px solid white; }
+
+#mainimage{
+  margin: 2.5% auto;
+  border-radius: 29px 30px 30px 30px; 
+  border: 12px solid white; 
+  height: auto; width: auto; 
+  max-width: 600px;
+-moz-border-radius: 29px 30px 30px 30px;
+-webkit-border-radius: 29px 30px 30px 30px;
+}
+
+#outer {_height: 417px; width: auto; 
+
+  _border: 10px solid #000000; }
+    
+#main{
+    position:relative;          
+    z-index:1;        
+    background-color: #949599;
+    background-image:-webkit-radial-gradient(center, circle farthest-corner, #fff, black);
+    padding: 12px 0 60px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.2);; 
+    
+}  
+       
+#menu {
+    height: 35px;
+    font-size: 16px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-top: 2px solid #949599; 
+    border-bottom: 2px solid #949599; 
+    line-height: 100%;
+    weight: 300;
+}
+
+#menu ul {
+    height: auto;
+    padding: 8px 0px;
+    margin: 0px;
+}
+
+#menu li { 
+display: inline; 
+padding: 20px; 
+}
+
+#menu a:hover {
+    color: #f5f5ab;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 8px 8px 8px;
+}
+
+p {text-align:center}
+
+#container {
+    width: 1000px;
+    overflow: hidden;
+    margin: 50px auto;
+    background: #F5F5AB;
+    margin: 1%; padding: 0;
+    height: 200px;
+  width: auto;
+}
+
+.photobanner {
+    height: 233px;
+    width: 2050px;
+    margin-bottom: 80px;
+}
+
+/*keyframe animations*/
+.first {
+    -webkit-animation: bannermove 80s linear infinite;
+       -moz-animation: bannermove 80s linear infinite;
+        -ms-animation: bannermove 80s linear infinite;
+         -o-animation: bannermove 80s linear infinite;
+            animation: bannermove 80s linear infinite;
+}
+ 
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -2125px;
+ }
+ 
+}
+ 
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+
+
+.hours {
+   float: left;
+  text-align:center;
+  margin: 0 0%;
+  width: 20%;
+  border: 6px solid #949599;
+  }
+  
+  
+.hours2 {
+  float: left;
+  text-align:center;
+  margin: 0 0%;
+  height: 40%;
+  width: 23%;
+  border-bottom-width: 12px;
+  border: 6px dashed #949599;
+  margin: 0px 15%;
+  }
+  
+
+.Map {
+  float: left;
+  text-align:center;
+  border: 6px solid #949599;
+  border-radius: 5px;
+  padding-left: 0px;
+  box-sizing:padding-box;
+ }
+
+ .paragraph {
+  width: 80%;
+  margin: 2% auto;
+ }
+ 
+                /*Here's where the footer begins*/ 
+              
+footer{
+    height: 245px;
+    color:#ccc;
+    font-size:12px;
+
+    position:relative;
+    z-index:-2;
+
+    background-color:white;
+    }
+                      /*TRY AND PUT THE DRAWER IMAGE HERE*/
+footer{
+                 
+    background-image:-webkit-linear-gradient(top, #31353a, white);     
+}
+ /*   background-image:-webkit-linear-gradient(top, #31353a, #2f3337); <!-- are these 3 "background-image" doing anything -->
+    background-image:-moz-linear-gradient(top, #31353a, #2f3337);
+    background-image:linear-gradient(top, #31353a, #2f3337);
+
+
+<!--/* Set a width to the outermost UL (unordered list), center it and fix it to the window */ -->
+footer > ul{
+    width:1100px; <!--   A setting of 0 puts it in the middle . -->; <YOU CHANGE SOMETHING HERE;
+    position:fixed;
+    left:50%;
+    bottom:0;
+    margin-left:-480px; <!--   A setting of 0 puts it in the middle . -->;
+    padding-bottom: 60px;
+    z-index:-1;
+}   
+        
+footer > ul > li{    <!--   Now everything is aligned . -->;
+    width:25%;
+    float:left;
+} 
+
+footer ul{   <!--   Elimantes the bullet points on the list -->;
+    list-style: none;
+}
+
+/* The links */
+
+footer > ul > li ul li{
+    margin-left:43px;    <!-- Unaffected by delete.  Also, what's up with this: "footer > ul > li ul li" -->;
+    text-transform: uppercase;
+    font-weight:bold;
+    line-height:1.8;
+}
+
+footer > ul > li ul li a{  
+    text-decoration: none !important;   <!-- When you delete "text-decoration" the underline is gone -->;
+    color:white; !important;
+}
+
+footer > ul > li ul li a:hover{ <!-- What does this do? Check later -->;
+    color:#ddd !important;
+}
+
+footer a.logo{
+    color: #e4e4e4 !important;
+    text-decoration: none !important;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    text-transform: uppercase;
+    margin-left: 16px;
+    display: inline-block;
+    margin-top: 7px;
+}
+
+footer a.logo i{
+    font-style: normal;
+    position: absolute;
+    width: 180px;
+    display: block;
+    left: 48px;
+    top: 18px;
+    font-size: 12px;
+    color: #6F256f;
+}
+
+footer a.logo:before{
+    content: '';
+    display: inline-block;
+    background: url("http://fc00.deviantart.net/fs70/f/2012/227/9/4/pixel_tea_bag__green_tea_by_jericam-d5b6ax7.png"); no-repeat -19px -70px;
+    width: 48px;
+    height: 51px;
+    vertical-align: text-top;
+}
+
+footer p{ <!-- Damn son, now they have bangin blue boxes around them -->;
+    width: 90%;
+    margin-right: 10%;
+    padding: 9px 0;  <!-- makes it so the blue expands beyond the textline -->;
+    line-height: 18px;<!-- does almost the same as previous -->;
+    font-weight: bold;
+    text-align:left;
+    font-size: 14px;
+    color:#fff;
+    text-transform: uppercase;
+    text-shadow: 0 1px rgba(0,0,0,0.1);
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+    opacity:0.9;
+    cursor:default;
+
+    -webkit-transition: opacity 0.4s; <!-- Maybe does something on different browswers? -->;
+    -moz-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+}
+
+footer > ul > li:hover p{
+    opacity:1;
+}
+
+footer p:before{ <!-- What is happenign here? -->;
+    content: '';
+    display: inline-block;
+    background: url('http://imgur.com/D1sH2zK') no-repeat;
+    width: 16px;
+    height: 18px;
+    margin: 0 12px 0 15px;
+    vertical-align: text-bottom;
+}
+
+
+footer p.home{
+    background-color: #6F256f;
+    border: 3px solid white;
+  border-radius: 200px 200px 200px 200px;
+  border color
+    background-image:-webkit-linear-gradient(top, #0096d6, #008ac6);
+    background-image:-moz-linear-gradient(top, #0096d6, #008ac6);
+    background-image:linear-gradient(top, #0096d6, #008ac6);
+    /*-- How do you move this left and take the image with you?*/
+}
+
+
+footer p.services{
+    background-color: #AAA039; /* Changing this color does nothing */
+    border: 3px solid white;
+    margin-left: 20%;
+    border-radius: 200px 200px 200px 200px;
+}
+
+footer p.services:before{
+    background-position: 0 -129px;
+}
+
+
+footer p.reachus{
+    background-color: #6F256f;
+  border: 3px solid white;
+}
+
+footer p.reachus:before{
+  
+    background-position: 0 -89px;
+}
+
+footer p.clients{
+    background-color: #6F256f;
+    border: 3px solid white;
+    
+    margin-left: 35%;
+    border-radius: 200px 200px 200px 200px;
+}
+
+footer p.clients:before{
+    background-position: 0 -69px;
+    
+}
+
+footer ul.unorderedlist {
+  margin-left: 5%;
+  font-size: 14px;  
+}
+
+footer ul.clientlist {
+  margin-left: 20%;
+  width: 300px;
+  
+}
+
+@media screen and (max-width: 600px) {
+
+  .secondlinetext {
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  width: 95%;
+  height: 0%;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  line-height: 100%;
+  padding: 1%;
+  color: white;
+  }
+
+  #main{
+    position:relative;          
+    z-index:1;        
+    background-color: #949599;
+    background-image:-webkit-radial-gradient(center, circle farthest-corner, #fff, black);
+    padding: 12px 0 60px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.2);; 
+    }  
+
+  .line {
+  border-bottom: 2px solid #9C8700;
+  border-top: 2px solid #9C8700;
+  width: 90%;
+  height: 0%;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  line-height: 100%;
+  padding: 1%;
+  color: white;
+  }
+
+#menu {
+    height: 35px;
+    font-size: 16px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-top: 2px solid #949599; 
+    border-bottom: 2px solid #949599; 
+    line-height: 95%;
+    weight: 300;
+}
+
+#menu ul {
+    height: auto;
+    padding: 8px 0px;
+    margin: 0px;
+}
+
+#menu li { 
+display: inline; 
+padding: 0px; 
+}
+
+
+#mainimage{
+  margin: 6% auto;
+  border-radius: 29px 30px 30px 30px; 
+  border: none; 
+  height: auto; width: auto; 
+  max-width: auto;
+-moz-border-radius: 29px 30px 30px 30px;
+-webkit-border-radius: 29px 30px 30px 30px;
+}
+
+#outer img {
+
+  height: auto; 
+  width: auto; 
+  margin: 0% 8%;
+  border: 10px solid #fff; 
+  border-radius: 10px;
+}
+    
+#main{
+    position:relative;          
+    z-index:1;        
+    background-color: #949599;
+    background-image:-webkit-radial-gradient(center, circle farthest-corner, #fff, black);
+    padding: 12px 0 60px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.2);; 
+    
+}
+
+
+}
+
