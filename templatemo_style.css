@@ -508,15 +508,11 @@ ______.templatemo_topmenu li a {
 
     templatemo_top_mid {
     	display: none;
-    	    	    	position: relative;
+    	position: relative;
 
     }
 
-    .templatemo_topmenu {
-    	_display: none;
-    	    	    	position: relative;
-
-    }
+  
     #templatemo_news {
     	float: none;
     	position: relative;
@@ -571,6 +567,10 @@ ______.templatemo_topmenu li a {
 	_border-top: 2px solid white;
 	}
 
+	#omit a {
+	color: rgb(49, 53, 57);
+
+	}	
 	#othercolumn {
 		display: block;
 		position: relative;
